@@ -64,3 +64,13 @@ ORDER BY PresentasePopulasiTerinfeksi DESC
 Perhatikan juga untuk field date, perbaiki formatnya ke dalam bentuk shortdate di Excel.
   
 <img width=720 src=https://user-images.githubusercontent.com/74480780/134905571-a97817d5-106f-450c-91ec-806e2e83053d.png>
+
+## 2. Import Data
+
+Setelah menyimpan data ke dalam tabel Excel, maka saatnya kita import data tersebut ke dalam Tableau.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134907634-1bdf4ff3-f127-4ed4-a965-09b36b43bfa8.png>
+
+Import semua file excel ke dalam satu lembar kerja Tableau
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134908075-6f721c72-b9f4-4d11-b64a-82a542d134bd.png>
