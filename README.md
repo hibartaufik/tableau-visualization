@@ -60,10 +60,6 @@ ORDER BY PresentasePopulasiTerinfeksi DESC
 ```
   
 <img width=720 src=https://user-images.githubusercontent.com/74480780/134904628-746b0588-0894-478e-be23-05e7a01a9662.png>
-  
-Perhatikan juga untuk field date, perbaiki formatnya ke dalam bentuk shortdate di Excel.
-  
-<img width=720 src=https://user-images.githubusercontent.com/74480780/134905571-a97817d5-106f-450c-91ec-806e2e83053d.png>
 
 ## 2. Import Data
 
@@ -77,8 +73,38 @@ Import semua file excel ke dalam satu lembar kerja Tableau
 
 ## 3. Membuat Visualisasi
 
-### 3.1 Visualisasi Total angka keseluruhan kasus COVID-19 di dunia
+### 3.1 Visualisasi total angka keseluruhan kasus COVID-19 di dunia
 
-Bentuk text table dengan data TotalAngkaKasus, TotalAngkaKematian, dan PresentaseKematian.
+Pertama olah terlebih dahulu data yang berada di Sheet 1 (data total angka keseluruhan kasus COVID-19 di dunia). Bentuk text table dengan data TotalAngkaKasus, TotalAngkaKematian, dan PresentaseKematian.
 
-<img width=720 src=https://user-images.githubusercontent.com/74480780/134911492-17e5c1d4-4218-4022-bb63-6915612664d7.png>
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134913371-2ddb5492-2fd7-4881-a83d-a788b89323ba.png>
+
+### 3.2 Visualisasi total angka kematian di tiap benua
+
+Lalu untuk Sheet 2 (data total angka kematian di tiap benua) buat horizontal bar dengan menyimpan continent ke dalam `Columns` dan TotalAngkaKematian ke dalam 'Rows'. Personalisasikan agar lebih mudah dipandang. Ubah juga nama field continent menjadi 'Benua' agar lebih menyatu dengan tampilan.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134917123-2d8d4a70-e501-4e0a-b527-498e9bba2635.png>
+
+### 3.3 Visualisasi presentase terinfeksi setiap negara
+
+Untuk Sheet 3 (data presentase terinfeksi dari angka terinfeksi tertinggi setiap negara) karena data tersebut berisi angka tertinggi dari tiap negara yang berbeda, memungkinkan kita membuat visualisasi peta.
+
+Ubah terlebih dahulu field location dengan menentukan tipe datanya menjadi Geographic Role untuk negara.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134918249-1be80c22-2801-4c23-9c80-76c0ded273af.png>
+
+Secara otomatis akan muncul dua field baru yaitu Longitude dan Lotitude, masukkan kedua Longitude ke dalam `Columns` dan Latitude ke dalam `Rows`. Lalu taruh field location ke dalam tab Marks.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134919192-8c911122-dfa5-4e65-8055-1a409cf2b861.png>
+
+Tambahkan pula field PresentasePopulasiTerinfeksi di tab Marks, tepat di bawah location. Lalu ubah opsinya menjadi color.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134919911-13393a52-5a81-44f6-a470-55dc71b09999.png>
+
+Personalisasikan visualisasi peta tersebut agar lebih enak dilihat.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134922086-56753c61-e9bd-43b1-891c-c60f14a1acf6.png>
+
+### 3.4 Visualisasi time-series presentase terinfeksi di tiap negara
+
+
