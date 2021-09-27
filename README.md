@@ -107,4 +107,14 @@ Personalisasikan visualisasi peta tersebut agar lebih enak dilihat.
 
 ### 3.4 Visualisasi time-series presentase terinfeksi di tiap negara
 
+Sheet 4 berisi data time-series, sehingga kita akan membuat line chart berdasarkan tanggal yang ada. Masukkan field date ke dalam `Columns` lalu tentukam berdasarkan bulan. Masukkan PresentasePopulasiTerinfeksi ke dalam `Rows` lalu measurment-nya menjadi Average. Masukkan location ke dalam tab Marks dan edit berdasarkan color.
 
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134931463-be2cc4b6-65da-49cd-b744-e1eab8dd6936.png>
+
+Karena terlalu banyak data negara yang dimasukkan ke dalam satu kanvas grafik, filter dan ambil beberapa negara yang akan ditampilkan.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134931884-1d4ba173-aabb-4299-ae50-5f289a163589.png>
+
+Dengan begitu, time-series viasualiasai yang dihasilkan lebih rapi dan informatif. Personalisasikan dengan menambahkan berbagai aspek, semisal forecasting dan lain-lain.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134936910-66e8bf1e-0e1a-415f-9b1c-e3b22f587eca.png>
