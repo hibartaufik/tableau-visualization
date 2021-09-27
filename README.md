@@ -7,7 +7,7 @@ Karena beberapa alasan tertentu, query yang kita simpan dengan file sql tidak da
 
 Berikut beberapa data hasil query yang dibutuhkan untuk melakukan visualisasi nantinya
 
-- Total angka keseluruhan kasus COVID-19 di dunia (Total Angka Kasus, Total Angka Kematian, Presentase Kematian) 
+- Total angka keseluruhan kasus COVID-19 di dunia (Total Angka Kasus, Total Angka Kematian, Presentase Kematian)
 
 ```
 SELECT SUM(new_cases) AS TotalAngkaKasus, SUM(CAST(new_deaths AS INT)) AS TotalAngkaKematian, 
@@ -74,3 +74,11 @@ Setelah menyimpan data ke dalam tabel Excel, maka saatnya kita import data terse
 Import semua file excel ke dalam satu lembar kerja Tableau
 
 <img width=720 src=https://user-images.githubusercontent.com/74480780/134908075-6f721c72-b9f4-4d11-b64a-82a542d134bd.png>
+
+## 3. Membuat Visualisasi
+
+### 3.1 Visualisasi Total angka keseluruhan kasus COVID-19 di dunia
+
+Bentuk text table dengan data TotalAngkaKasus, TotalAngkaKematian, dan PresentaseKematian.
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/134911492-17e5c1d4-4218-4022-bb63-6915612664d7.png>
