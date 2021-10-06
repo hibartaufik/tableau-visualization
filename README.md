@@ -118,3 +118,21 @@ Karena terlalu banyak data negara yang dimasukkan ke dalam satu kanvas grafik, f
 Dengan begitu, time-series viasualiasai yang dihasilkan lebih rapi dan informatif. Personalisasikan dengan menambahkan berbagai aspek, semisal forecasting dan lain-lain.
 
 <img width=720 src=https://user-images.githubusercontent.com/74480780/134936910-66e8bf1e-0e1a-415f-9b1c-e3b22f587eca.png>
+
+### 3.5 Membuat Covid Dashboard
+
+Membuat Dashboard lebih mudah karena kita tinggal menyusun visualisasi-visualisasi yang telah kita buat ke dalam satu halaman lalu membuatnya lebih jelas dan informatif
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/136296594-6eb7a283-2260-4463-adaf-e4c256f79181.png>
+
+Dari tab `Sheets`, drag & drop halaman visualisasi yang telah dibuat
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/136296959-1eed0c1a-f98a-4a14-84d0-dbcf3c6af028.png>
+
+Susun visualisasi tersebut agar dashboard terlihat lebih jelas dan rapi
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/136297019-940061f1-3449-453a-ae21-e53c2935ec77.png>
+
+Preview dashboard
+
+<img width=720 src=https://user-images.githubusercontent.com/74480780/136297257-d3e0a8b5-e204-4e7b-8a59-06b13c980e6b.png>
