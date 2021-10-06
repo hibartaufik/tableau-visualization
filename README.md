@@ -136,3 +136,5 @@ Susun visualisasi tersebut agar dashboard terlihat lebih jelas dan rapi
 Preview dashboard
 
 <img width=720 src=https://user-images.githubusercontent.com/74480780/136297257-d3e0a8b5-e204-4e7b-8a59-06b13c980e6b.png>
+
+[Klik disini](https://public.tableau.com/app/profile/hibar.taufikurachman/viz/CovidDashboard_16335603239330/Dashboard1?publish=yes) untuk melihat Dashboard diatas melalui Tableau Public
